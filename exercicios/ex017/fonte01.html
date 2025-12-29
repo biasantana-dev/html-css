@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc 
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal;
+            
+        }
+
+        h1 {
+            
+            /* Em vez de fazer isso: 
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            Melhor usar o shorthand:
+            shorthand font 
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em arial, helvetica, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque saepe possimus nobis accusantium fuga iusto. Nostrum, enim necessitatibus corporis ullam, amet, eveniet atque sequi tempora asperiores optio labore. Assumenda, officia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur eveniet ex tenetur vel neque omnis? Cum atque, a veniam consequuntur, laboriosam enim minus aperiam ex nesciunt facilis, libero doloremque officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus dignissimos voluptates at eos laboriosam, in, vero amet natus adipisci a ipsam necessitatibus nostrum, doloribus inventore voluptas minus. Ullam, reprehenderit rerum?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis atque quisquam qui quos officia cum accusantium aperiam, doloremque quibusdam earum minus aspernatur? Molestias aperiam a ratione dolores illo magni debitis?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, amet molestiae. Nobis veniam temporibus, reiciendis illum nulla sit et fugiat facere cupiditate sed nam labore, iusto soluta odio eveniet ipsam.</p>
+</body>
+</html>
